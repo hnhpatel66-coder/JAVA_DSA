@@ -46,6 +46,7 @@ class student {
         student A = new student("Nirbhay", 101, 85.5f);
 
         int choice;
+
         do {
             System.out.println("---------------- STUDENT MENU ----------------");
             System.out.println("1. Input Details");
