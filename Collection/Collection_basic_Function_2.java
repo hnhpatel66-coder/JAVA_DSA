@@ -22,12 +22,25 @@ public class Collection_basic_Function_2 {
         }
 
         list.add(22);
-        list.add(33);
+        list.add(55);
         // Contains
         System.out.println("List contains 33: " + list.contains(33));
 
-        // Sort an ArrayList
+        // Sort an ArrayList (Ascending Order)
         Collections.sort(list);
         System.out.println("Sorted List: " + list);
+
+        // Sort an ArrayList (Descending Order)
+        Collections.sort(list, Collections.reverseOrder());
+        System.out.println("Sorted List in Descending Order: " + list);
+
+        ArrayList<Integer> newlist =  (ArrayList<Integer>)list.clone();
+        System.out.println("Cloned List: " + newlist);
+
+        ArrayList<Integer> marks = new ArrayList<>();
+        marks.ensureCapacity(101);
+
+        System.out.println(marks.isEmpty());
+        System.out.println("index of the element: " + newlist.indexOf(33));
     }
 }
