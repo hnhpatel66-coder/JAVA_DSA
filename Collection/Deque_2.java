@@ -6,7 +6,7 @@ public class Deque_2 {
         queue.offerFirst(10); // offerFirst => adds an element to the front of the deque
         queue.offerFirst(20);
         queue.offerFirst(30);
-        
+
         queue.offerLast(11);
         queue.offerLast(22);
         queue.offerLast(33); // offerLast => adds an element to the end of the deque
@@ -17,5 +17,8 @@ public class Deque_2 {
 
         queue.pollFirst(); // pollFirst => removes and returns the first element of the deque, if the deque is empty it will return null
         System.out.println("Queue after pollFirst: " + queue);
+
+        queue.clear();
+        System.out.println("Actual size of the queue: " + queue.size());
     }
 }
