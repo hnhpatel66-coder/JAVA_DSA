@@ -1,12 +1,11 @@
 import java.util.*;
 
-public class Treeset {
+public class Tree_Set {
     public static void main(String[] args) {
       
         // HashSet          -> O(1) -> Random Order
         // LinkedHashSet    -> O(n) -> Insertion Order
         // TreeSet          -> BST -> O(log n) -> Ascending Order
-
         Set<Integer> set1 = new TreeSet<>();
         Set<Integer> set2 = new TreeSet<>();
 
@@ -28,12 +27,12 @@ public class Treeset {
         System.out.println("Set1 Present in Set2: " + set1.containsAll(set2)); 
         System.out.println("Set2 Present in Set1: " + set2.containsAll(set1));
 
-        Set<Integer> set = new LinkedHashSet<>();
-        set.add(11);
-        set.add(22);
-        set.add(33);
-        set.add(11); // duplicate value will not be added to the set
-        System.out.println("Set: " + set);
+        // Set<Integer> set = new HashSet<>();
+        // set.add(11);
+        // set.add(22);
+        // set.add(33);
+        // set.add(11); // duplicate value will not be added to the set
+        // System.out.println("Set: " + set);
 
 
 
