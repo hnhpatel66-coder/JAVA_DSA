@@ -13,7 +13,8 @@ public class HasMapBasic {
         System.out.println(maping.containsKey("jp"));
 
         System.out.println(maping.containsValue("India"));
-        
+
+        maping.replace("in", "indornecia");
         System.out.println("Value for key 'in': " + maping.get("in"));
         System.out.println("Value for key 'uk': " + maping.get("uk"));
 
