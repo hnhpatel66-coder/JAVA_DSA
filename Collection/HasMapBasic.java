@@ -3,7 +3,7 @@ import java.util.*;
 public class HasMapBasic {
     public static void main(String[] args) {
         
-        Map<String, String> maping = new HashMap<>();
+        Map<String, String> maping = new LinkedHashMap<>();
         maping.put("in" , "India");
         maping.put("us" , "United States");
         maping.put("uk" , "United Kingdom");
@@ -31,7 +31,21 @@ public class HasMapBasic {
 
         System.out.println("Size of the Table: " + Table.size());
 
-        Table.putIfAbsent("ind", "India3"); 
+        Table.putIfAbsent("ind", "India"); 
         System.out.println("Table after putIfAbsent: " + Table);
+
+        Set<String> keys = Table.keySet();
+        System.out.println("Keys in the Table: " + keys);
+
+        Collection<String> values = Table.values();
+        System.out.println("Values in the Table: " + values);
+
+        Set<Map.Entry<String, String>> entryset = Table.entrySet();
+        System.out.println("Entryset of Table: "+ entryset);
+
+        // Iterate over the entry set
+        for(Map.Entry<String, String> entry : Table.entrySet()){
+            System.out.println("Key: " + entry.getKey() + ", Value: " + entry.getValue());
+        }
     }
 }
