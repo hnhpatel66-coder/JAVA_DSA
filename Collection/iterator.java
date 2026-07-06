@@ -8,7 +8,7 @@ public class iterator {
         list.add(22);
         list.add(33);
         System.out.println("List: " + list);
-
+        
         // Using Iterator to traverse the list
        Iterator<Integer> iterator = list.iterator();
 

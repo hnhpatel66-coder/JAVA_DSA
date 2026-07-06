@@ -1,10 +1,10 @@
-import java.util.ArrayList;
 import java.util.LinkedList;
 
 public class LinkedList_1 {
+
     public static void main(String[] args) {
     // Create a List of integers
-    // ArrayList(InterFace) -> Concreate Class
+    // LinkedListList(InterFace) -> Concreate Class
     LinkedList<Integer> list = new LinkedList<>();
         list.add(10);
         list.add(20);

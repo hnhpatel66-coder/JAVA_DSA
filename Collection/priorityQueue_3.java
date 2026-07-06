@@ -5,7 +5,7 @@ public class priorityQueue_3 {
 
         // defult Behaavior -> Integers -> less Value -> High Priority -> minHeap
 
-        Queue<Integer> queue = new PriorityQueue<>((a,b)-> a-b); // maxHeap
+        Queue<Integer> queue = new PriorityQueue<>((a,b)-> b-a); // maxHeap
         queue.offer(11);
         queue.offer(22);
         queue.offer(33); 

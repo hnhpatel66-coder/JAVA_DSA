@@ -3,6 +3,10 @@ import java.util.*;
 public class LinkedSet {
     public static void main(String[] args) {
       
+        // HashSet          -> O(1) -> Random Order
+        // LinkedHashSet    -> O(n) -> Insertion Order
+        // TreeSet          -> BST -> O(log n) -> Ascending Order
+
         Set<Integer> set1 = new LinkedHashSet<>();
         Set<Integer> set2 = new LinkedHashSet<>();
 

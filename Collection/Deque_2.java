@@ -18,7 +18,6 @@ public class Deque_2 {
         queue.pollFirst(); // pollFirst => removes and returns the first element of the deque, if the deque is empty it will return null
         System.out.println("Queue after pollFirst: " + queue);
 
-        queue.clear();
         System.out.println("Actual size of the queue: " + queue.size());
     }
 }
