@@ -61,7 +61,10 @@ public class Student_2 {
         //     }
         // });
 
-        Collections.sort(student, new AgeComparetor());
+        //lambda expression
+        Collections.sort(student, (s1, s2) -> s1.Age-s2.Age);
+
+       // Collections.sort(student, new AgeComparetor());
         System.out.println("List of Students after sorting: " + student);
 
     }
