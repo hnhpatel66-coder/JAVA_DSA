@@ -61,7 +61,7 @@ public class Student_2 {
         //     }
         // });
 
-        Collection.sort(student, new AgeComparetorv());
+        Collections.sort(student, new AgeComparetor());
         System.out.println("List of Students after sorting: " + student);
 
     }
