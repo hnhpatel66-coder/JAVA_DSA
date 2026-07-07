@@ -1,9 +1,10 @@
 
-
-void main(){
-    // My Name is Nirbhay => Comment Line
-    System.out.println("JAY SHREE KRISHNA"); // here ln means new Line
-    // main is Variable
+public class firstJava{
+public static void main(){
+    
+    System.out.println("Hello World"); // here ln means new Line
+    
     int main=9;
     System.out.println(main);
+}
 }
