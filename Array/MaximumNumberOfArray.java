@@ -13,6 +13,7 @@ public class MaximumNumberOfArray {
             arr[i] = n.nextInt();
         }
         System.out.println();
+        
         System.out.print("Your Array is: ");
         for(int value:arr){
             System.out.print(value+" ");
