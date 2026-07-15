@@ -5,6 +5,7 @@ public class MaximumNumberOfArray {
     public static void main(String[]args){
         Scanner n = new Scanner(System.in);
         System.out.print("Enter the number of elements in the array : ");
+        
         int number = n.nextInt();
         int arr[] = new int[number];
 

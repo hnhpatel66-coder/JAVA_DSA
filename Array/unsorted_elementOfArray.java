@@ -19,8 +19,6 @@ public class unsorted_elementOfArray {
             if(arr[i] > arr[i+1]){
                 System.out.println("Unshorted Element in Array: " + arr[i+1]);
             }
-            else{
-            }
         }
         
     }
