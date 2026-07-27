@@ -16,13 +16,9 @@ public class DuplicateElement {
 
         System.out.print("Duplicate Element: ");
         for(int i=0; i<n-1; i++){
-            int c=0;
             for(int j=i+1; j<n; j++){
                 if(arr[i]==arr[j]){
-                    c++;
-                    if(c==1){
                    System.out.print(arr[i]+" ");
-                    }
                 }
             }
         }
