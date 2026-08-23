@@ -38,9 +38,9 @@ public class buterfil_parrten {
         // part 2 => invert simetrical half
         for(int row=n ; row>=1 ; row--){
             // part 1
-//            if(row==n){
-//                continue;
-//            }
+            //    if(row==n){
+            //         continue;
+            //    }
             for(int col=1 ; col<=row ; col++){
                 System.out.print(" *");
             }
