@@ -6,9 +6,7 @@ interface Bird {
     default void sleep() {
         System.out.println("Birds sleep");
     }
-
 }
-
 
 class Sparrow implements Bird {
     @Override
@@ -44,7 +42,6 @@ public class Interface_AbstracClass {
         b.eat();
         b.sleep();
     }
-
         public static void main(String[] args) {
         System.out.println("***********Interface using Polymorphism: ************");
 
