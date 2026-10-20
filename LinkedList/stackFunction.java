@@ -1,5 +1,5 @@
 
-class StackFunction {
+class stackFunction {
 
     // Node class
     class Node {
@@ -94,7 +94,7 @@ class StackFunction {
 
     // Main function
     public static void main(String[] args) {
-        Stack st = new Stack();
+        stackFunction st = new stackFunction();
 
         st.push(10);
         st.push(20);
